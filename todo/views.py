@@ -37,3 +37,6 @@ def toggle_status(request, id):
     item.save()
     return redirect(get_todo_list)
 
+def test_get_edit_page_for_item_that_does_not_exist(self):
+    page = self.client.get("/edit/1")
+    self.assertEqual(page.status_code, 404)
