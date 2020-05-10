@@ -26,7 +26,7 @@ SECRET_KEY = 'sj8u)q#360f5l4)n4*xbnj15e)jeav@*)7vh=b*rp_zx!u$*lh'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['gcs-django-todo.herokuapp.com']
 
 
 # Application definition
